@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-gulam-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxGulam/SpfxGulamWebPart.js",
+          "manifest": "./src/webparts/spfxGulam/SpfxGulamWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxGulamWebPartStrings": "lib/webparts/spfxGulam/loc/{locale}.js"
+  }
+}
