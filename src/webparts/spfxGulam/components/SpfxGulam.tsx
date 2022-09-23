@@ -28,7 +28,12 @@ export default class SpfxGulam extends React.Component<ISpfxGulamProps, {}> {
         <div className={styles.container}>
           <div className={styles.row}>
             <div className={styles.column}>
-              <p className={styles.description}>{escape(this.props.description)}</p>
+            <div className={styles.itemField}> 
+                <div className={styles.fieldLabel}> <h2>SPFX CRUD OPERATION CREATED BY GULAM KHAN</h2>:</div>
+                
+              </div>
+             
+              
               <div className={styles.itemField}> 
                 <div className={styles.fieldLabel}>Item ID:</div>
                 <input type="text" id='itemId'></input>

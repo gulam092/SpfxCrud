@@ -6,11 +6,13 @@
     margin: 0px auto;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
- 
+ .headTitle{
+
+ }
   .row {
     @include ms-Grid-row;
     @include ms-fontColor-white;
-    background-color: $ms-color-themeDark;
+    background-color: rgb(223, 15, 136);
     padding: 20px;
   }
  
@@ -44,9 +46,9 @@
  
     // Primary Button
     min-width: 80px;
-    background-color: $ms-color-themePrimary;
-    border-color: $ms-color-themePrimary;
-    color: $ms-color-white;
+    background-color: rgb(48, 212, 48);
+    border-color: rgb(85, 82, 82);
+    color: $ms-color-red;
  
     // Basic Button
     outline: transparent;
